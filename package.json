@@ -14,10 +14,8 @@
   "lint-staged": {
     "*.{js,json,css}": ["prettier --single-quote --write", "git add"]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/toystars/react-native-multiple-select.git"
-  },
+  "repository":
+    "git+https://github.com/toystars/react-native-multiple-select.git",
   "keywords": ["reactnative", "multiselect", "multi-select", "react-native"],
   "author": "Mustapha Babatunde Oluwaleke",
   "license": "MIT",
@@ -25,7 +23,9 @@
     "url": "https://github.com/toystars/react-native-multiple-select/issues"
   },
   "homepage": "https://github.com/toystars/react-native-multiple-select#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react-native-nested-scroll-view": "^8.0.0"
+  },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "babel-jest": "^18.0.0",
